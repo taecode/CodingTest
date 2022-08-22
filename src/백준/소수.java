@@ -41,7 +41,7 @@ public class 소수 {
 			System.out.println(min);
 		}
 	}
-	//된건가?
+	
 	
 
 }
