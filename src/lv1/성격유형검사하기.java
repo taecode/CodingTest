@@ -24,10 +24,10 @@ public class 성격유형검사하기 {
 	        	else if(choices[i]<4)count[(int)a]+=4-choices[i];
 	        	
 	        	
-	        	
 	        }
-	        if(count[(int)'R']<=count[(int)'T'])answer+="T";
-	        else answer+="R";
+	        
+	        if(count[(int)'R']>=count[(int)'T'])answer+="R";
+	        else answer+="T";
 	        
 	        if(count[(int)'C']>=count[(int)'F'])answer+="C";
 	        else answer+="F";
@@ -37,6 +37,7 @@ public class 성격유형검사하기 {
 	        
 	        if(count[(int)'A']>=count[(int)'N'])answer+="A";
 	        else answer+="N";
+	        
 	        
 	        
 	        
