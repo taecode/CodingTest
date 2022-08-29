@@ -21,7 +21,6 @@ public class 손익분기점1712번 {
         long C = sc.nextLong(); // 노트북가격(수입)
 
 		long sales = 0;// 판매댓수
-		
 		if(C<=B) {
 			System.out.println(-1);
 			return;
