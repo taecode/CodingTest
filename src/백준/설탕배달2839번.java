@@ -18,12 +18,12 @@ public class 설탕배달2839번 {
 		else if (N % 5 != 0) 
 		{
 			
-			for (int i = N / 5; i >= 0; i--) {
+			for (int i = N / 5; i >= 0; i--) { //18  3,2,1 
 				
 				if (((N - (5 * i)) % 3) == 0) 
 				{
 					
-					System.out.println(i + (N - (5 * i)) / 3);
+					System.out.println(i + (N - (5 * i)) / 3); //5로 나눈 몫+ 3으로 나눈 몫
 					return;
 				}
 
